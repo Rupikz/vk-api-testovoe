@@ -1,0 +1,16 @@
+{{> Header }}
+<h1>Друзья {{user.last_name}} {{user.first_name}}</h1>
+<div class="box">
+    {{#if friends}}
+        {{#each friends}}
+            {{#with this}}
+             <div class="friend">
+                <img src="{{photo_200}}" alt="{{first_name}} {{last_name}}">
+                <h4>{{first_name}} {{last_name}}</h4>
+            </div>
+            {{/with}}
+        {{/each}}
+    {{else}}
+        <h4 class="default">Друзей нет</h4>
+    {{/if}}
+</div>

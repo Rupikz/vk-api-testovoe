@@ -1,0 +1,46 @@
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#auth {
+    min-width: 240px;
+    width: 20%;
+    padding: 20px 60px;
+    border: 3px #4680C2 solid;
+    border-radius: 20px;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+    color: #4680C2;
+    text-decoration: none;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.friend img {
+    border-radius: 100px;
+    width: 150px;
+    margin: 0 30px;
+}
+
+.friend h4 {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
